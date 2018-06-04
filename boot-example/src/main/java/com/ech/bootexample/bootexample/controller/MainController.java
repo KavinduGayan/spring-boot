@@ -7,6 +7,10 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class MainController {
-}
+  
+  @RequestMapping("/test")
+  public String test() {
+    return "hi";
+  }
 
 
