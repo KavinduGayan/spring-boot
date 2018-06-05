@@ -12,7 +12,8 @@ public class MainController {
 
     @RequestMapping("/test")
     public String test() {
-        return "hello";
+
+        return "hello-test";
     }
 }
 
